@@ -23,7 +23,7 @@ function viewCart() {
   var responsePart1 = 'In your cart, you have ';
 
   var spacer = ' at $';
-  
+
 
   if (cart.length === 0){
     return 'Your shopping cart is empty.'
