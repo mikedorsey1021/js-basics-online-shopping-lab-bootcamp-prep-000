@@ -38,6 +38,8 @@ function viewCart() {
 
       if (i !== cart.length-1){
         response += ", and ";
+      } else if(i < cart.length-1){
+        response += ",";
       }
 
     }
