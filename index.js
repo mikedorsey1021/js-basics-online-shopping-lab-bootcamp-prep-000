@@ -81,10 +81,10 @@ function total() {
 
 // function removeFromCart(item) {
 //   // write your code here
-//   var remove = cart.splice(1,1); 
+//   var remove = cart.splice(1,1);
 //   remove;
-//   
-// 
+//
+//
 // }
 
 function removeFromCart(item) {
