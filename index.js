@@ -37,11 +37,11 @@ function viewCart() {
       response += item + spacer + price;
 
       if (i !== cart.length-1){
-        response += ", and"; 
+        response += ", and "; 
       }
 
     }
-    return response
+    return response + '.'
     // return `${responsePart1}${item}${spacer}${price}`
   }
 
