@@ -39,7 +39,7 @@ function viewCart() {
       if (i !== cart.length-1){
         response += ","
       }
-      
+
     }
     return response
     // return `${responsePart1}${item}${spacer}${price}`
