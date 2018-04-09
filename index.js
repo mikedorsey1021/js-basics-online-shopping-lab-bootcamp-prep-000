@@ -22,7 +22,7 @@ function viewCart() {
   var responsePart1 = 'In your cart, you have ';
   var spacer = ' at $';
 
-  var cart = getCart();
+  //var cart = getCart();
   if (cart.length === 0){
     return 'Your shopping cart is empty.'
   }else if (cart.length === 1) {
@@ -89,11 +89,12 @@ function removeFromCart(item) {
   var i;
   var response = '';
   var cart = getCart()
+  var value = cart[0].itemName.valueOf();
   for(i = 0; i < cart.length; i++){
-    var value = cart[0].itemName.valueOf();
+    
     if (value !== item){
       response += 'That item is not in your cart'
-    }else if(value === item){
+    }else {
       'hi'
     }
   }
