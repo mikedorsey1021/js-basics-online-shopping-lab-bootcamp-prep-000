@@ -22,7 +22,7 @@ function viewCart() {
   // write your code here
   var responsePart1 = 'In your cart, you have ';
   var item = cart[0].itemName;
-  var spacer = ' at $'; 
+  var spacer = ' at $';
   var price = cart[0].itemPrice;
 
   if (cart.length === 0){
