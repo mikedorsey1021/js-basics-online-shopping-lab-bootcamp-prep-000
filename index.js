@@ -13,6 +13,7 @@ function addToCart(item) {
  // write your code here
  var price = 2;
  var newObj = cart.push(Object.assign({}, {itemName: item}, {itemPrice: price}))
+ newObj; 
 }
 
 function viewCart() {
