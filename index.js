@@ -19,6 +19,8 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  var responsePart1 = 'In your cart, you have '; 
+  return responsePart1 
 }
 
 function total() {
