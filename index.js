@@ -92,17 +92,21 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var i;
-  var response = '';
+  var found = false;
 
   for(i = 0; i < cart.length; i++){
     var value = cart[i].itemName;
     if (item === value){
       cart.splice(i, 1);
-    }else {
-      'hi'
+      found = true; 
+      break; 
+      
     }
+    
   }
-
+if (found === false){
+  return 'That item is not in your cart.'
+}
 }
 
 function placeOrder(cardNumber) {
