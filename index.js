@@ -88,7 +88,7 @@ function removeFromCart(item) {
     if (cart[i].itemName !== item){
       return 'That item is not in your cart'
     }else if(item === cart[i].item){
-
+      return 'hi'
     }
   }
 }
