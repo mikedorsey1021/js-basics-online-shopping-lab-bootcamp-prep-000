@@ -22,6 +22,7 @@ function viewCart() {
   // write your code here
   var responsePart1 = 'In your cart, you have ';
   var spacer = ' at $';
+  var itemName = cart[0].
 
   if (cart.length === 0){
     return 'Your shopping cart is empty.'
@@ -70,6 +71,14 @@ function viewCart() {
 
 function total() {
   // write your code here
+  var i; 
+  var count; 
+
+  for(i = 0; i <cart.length; i++){
+    var count = 0; 
+    count += cart[i].itemPrice;  
+  }
+  return count; 
 }
 
 function removeFromCart(item) {
