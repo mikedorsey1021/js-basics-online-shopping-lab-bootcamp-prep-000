@@ -11,8 +11,8 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- var price = 2; 
- var newObj = Object.assign({}, {itemName: item}, {itemPrice: price}){}
+ var price = 2;
+ var newObj = Object.assign({}, {itemName: item}, {itemPrice: price})
 }
 
 function viewCart() {
