@@ -54,11 +54,11 @@ function viewCart() {
       if (i === cart.length-1){
         response += ".";
       } else if(i <  cart.length-1){
-        response += ",";
+        response += ", ";
       }
 
     }
-    return response 
+    return response
     // return `${responsePart1}${item}${spacer}${price}`
   }
 
