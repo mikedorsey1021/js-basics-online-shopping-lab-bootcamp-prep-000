@@ -37,7 +37,7 @@ function viewCart() {
       response += item + spacer + price;
 
       if (i !== cart.length-1){
-        response += ","
+        response += ", and"; 
       }
 
     }
