@@ -90,7 +90,7 @@ function removeFromCart(item) {
     if (value !== item){
       response += 'That item is not in your cart'
     }else if(value === item){
-      return 'hi'
+      'hi'
     }
   }
   return response
