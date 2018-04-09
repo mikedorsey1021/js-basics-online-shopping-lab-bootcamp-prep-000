@@ -83,7 +83,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var i;
-  response = '';
+  var response = '';
 
   for(i = 0; i < cart.length; i++){
     var value = cart[i].itemName;
