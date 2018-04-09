@@ -59,7 +59,7 @@ function viewCart() {
         response += ", ";
 
 
-      } else if (i < cart.length-1 && i === cart.length-2){
+      } else if (i === cart.length-2){
         response += ", and ";
       }
 
