@@ -22,7 +22,7 @@ function viewCart() {
   // write your code here
   var responsePart1 = 'In your cart, you have ';
   var spacer = ' at $';
-  var itemName = cart[0].itemName; 
+   
 
   if (cart.length === 0){
     return 'Your shopping cart is empty.'
