@@ -79,26 +79,28 @@ function total() {
   return count;
 }
 
-// function removeFromCart(item) {
-//   // write your code here
-//
-// }
-
 function removeFromCart(item) {
   // write your code here
-  var i;
-  var response = '';
+  var remove = cart.splice(1,1); 
 
-  for(i = 0; i < cart.length; i++){
-    var value = cart[i].itemName;
-    if (cart.length === 0){
-      response += 'That item is not in your cart'
-    }else {
-      'hi'
-    }
-  }
-return value
+
 }
+
+// function removeFromCart(item) {
+//   // write your code here
+//   var i;
+//   var response = '';
+//
+//   for(i = 0; i < cart.length; i++){
+//     var value = cart[i].itemName;
+//     if (cart.length === 0){
+//       response += 'That item is not in your cart'
+//     }else {
+//       'hi'
+//     }
+//   }
+// return value
+// }
 
 function placeOrder(cardNumber) {
   // write your code here
