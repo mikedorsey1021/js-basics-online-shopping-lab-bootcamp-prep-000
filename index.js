@@ -31,10 +31,12 @@ function viewCart() {
     var i;
 
     for (i = 0; i < cart.length; i++){
-      var item = cart[i].itemName;
-      var price = cart[i].itemPrice;
+      var test = cart[i].itemName;
+      // var item = cart[i].itemName;
+      // var price = cart[i].itemPrice;
     }
-    return `${responsePart1}${item}${spacer}${price}`
+    return responsePart1 + test
+    // return `${responsePart1}${item}${spacer}${price}`
   }
 
   }
