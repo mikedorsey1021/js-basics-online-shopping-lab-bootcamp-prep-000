@@ -85,7 +85,7 @@ function removeFromCart(item) {
   var i;
 
   for(i = 0; i < cart.length; i++){
-    if (cart[i].item === undefined){
+    if (cart[i].item === false){
       return 'That item is not in your cart'
     }else if(item === cart[i].item){
 
