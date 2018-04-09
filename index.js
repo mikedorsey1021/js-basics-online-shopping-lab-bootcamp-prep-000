@@ -36,9 +36,9 @@ function viewCart() {
       var price = cart[i].itemPrice;
       response += item + spacer + price;
 
-      if (i !== cart.length-1){
+      if (i < cart.length){
         response += ", and ";
-      } else if(i < cart.length-1){
+      } else if(i <  cart.length-1){
         response += ",";
       }
 
