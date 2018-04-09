@@ -89,7 +89,7 @@ function removeFromCart(item) {
   var i;
   var response = '';
   var cart = getCart()
-  var value = cart[0].itemName.valueOf();
+  var value = cart[0].itemName;
   for(i = 0; i < cart.length; i++){
 
     if (value !== item){
