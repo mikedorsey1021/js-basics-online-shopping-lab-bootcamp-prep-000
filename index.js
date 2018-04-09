@@ -57,13 +57,12 @@ function viewCart() {
 
       if(i <  cart.length-1){
         response += ", ";
-        if(i === cart.length-2){
-          response += ", and";
 
-        }
 
+      } else if (i < cart.length-1 && i === cart.length-2){
+        response += ", and";
       }
-
+      
 
 
     }
