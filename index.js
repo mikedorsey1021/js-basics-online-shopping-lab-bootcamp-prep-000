@@ -86,7 +86,7 @@ function total() {
 //
 //
 // }
-// cart = [ {  itemName:"bananas", itemPrice: 17 }, 
+// cart = [ {  itemName:"bananas", itemPrice: 17 },
 //{ itemName:"pancake batter",itemPrice: 5 }]
 
 function removeFromCart(item) {
@@ -97,7 +97,7 @@ function removeFromCart(item) {
   for(i = 0; i < cart.length; i++){
     var value = cart[i].itemName;
     if (item === value){
-      cart.splice(i, 1); 
+      cart.splice(i, 1);
     }else {
       'hi'
     }
