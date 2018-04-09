@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  var price = Math.floor(Math.random() * 100);
- var newObj = cart.push(Object.assign({}, {itemName: item}, {itemPrice: price}))
+ var newObj = cart.push(Object.assign({}, {itemName: item}, {price: price}))
  newObj;
  return `${item} has been added to your cart.`
 }
@@ -20,7 +20,7 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   var responsePart1 = 'In your cart, you have ';
-  return responsePart1 
+  return responsePart1
 }
 
 function total() {
