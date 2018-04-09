@@ -80,28 +80,26 @@ function total() {
   return count;
 }
 
-function removeFromCart(item) {
-  // write your code here
-  var cut = cart.indexOf(item)
-
-  cart.splice(cut,1); 
-}
-
 // function removeFromCart(item) {
 //   // write your code here
-//   var i;
-//   var response = '';
-//
-//   for(i = 0; i < cart.length; i++){
-//     var value = cart[i].itemName;
-//     if (value !== item){
-//       response += 'That item is not in your cart'
-//     }else if(value === item){
-//       'hi'
-//     }
-//   }
-// return value
+//  
 // }
+
+function removeFromCart(item) {
+  // write your code here
+  var i;
+  var response = '';
+
+  for(i = 0; i < cart.length; i++){
+    var value = cart[0].itemName.valueOf();
+    if (value !== item){
+      response += 'That item is not in your cart'
+    }else if(value === item){
+      'hi'
+    }
+  }
+return value
+}
 
 function placeOrder(cardNumber) {
   // write your code here
