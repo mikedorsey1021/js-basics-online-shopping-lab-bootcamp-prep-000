@@ -26,7 +26,7 @@ function viewCart() {
   if (cart.length === 0){
     return 'Your shopping cart is empty.'
   }else if (cart.length === 1) {
-    return responsePart1 + cart[0].itemName + ' at $' + cart[0].itemPrice +'.';
+    return responsePart1 + cart[0].itemName + spacer + cart[0].itemPrice +'.';
   }else if (cart.length === 2){
     var i;
     var response = responsePart1;
@@ -58,18 +58,13 @@ function viewCart() {
       if(i <  cart.length-2){
         response += ", ";
 
-
       } else if (i === cart.length-2){
         response += ", and ";
       }
 
-
-
     }
     return response
-    // return `${responsePart1}${item}${spacer}${price}`
   }
-
   }
 
 
