@@ -29,12 +29,12 @@ function viewCart() {
     return responsePart1 + cart[0].itemName + ' at $' + cart[0].itemPrice +'.';
   }else {
     var i;
-    var item = cart[0].itemName;
-    var price = cart[0].itemPrice;
+    
     for (i = 0; i < cart.length; i++){
-    return `${responsePart1}${item}${spacer}${price}`
+      var item = cart[i].itemName;
+      var price = cart[i].itemPrice;
     }
-
+    return `${responsePart1}${item}${spacer}${price}`
   }
 
   }
