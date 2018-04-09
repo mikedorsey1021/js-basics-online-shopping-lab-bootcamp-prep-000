@@ -93,7 +93,7 @@ function removeFromCart(item) {
       'hi'
     }
   }
-  return response
+
 }
 
 function placeOrder(cardNumber) {
