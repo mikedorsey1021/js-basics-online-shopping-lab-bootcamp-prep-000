@@ -76,7 +76,7 @@ function total() {
 
   for(i = 0; i < cart.length; i++){
     var count = 0;
-    count = cart[i].itemPrice + count;
+    count += cart[i].itemPrice ;
   }
   return count;
 }
