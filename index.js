@@ -21,7 +21,7 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   var responsePart1 = 'In your cart, you have ';
-  var item = cart[0].itemName;
+  
   var spacer = ' at $';
   var price = cart[0].itemPrice;
 
@@ -31,6 +31,7 @@ function viewCart() {
     return responsePart1 + cart[0].itemName + ' at $' + cart[0].itemPrice +'.';
   }else {
     var i;
+    var item = cart[0].itemName;
     for (i = 0; i < cart.length; i++){
 
     }
