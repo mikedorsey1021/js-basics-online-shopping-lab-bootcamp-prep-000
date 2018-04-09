@@ -41,7 +41,7 @@ function viewCart() {
       }
       
     }
-    return responsePart1 + test
+    return response
     // return `${responsePart1}${item}${spacer}${price}`
   }
 
