@@ -72,7 +72,7 @@ function viewCart() {
 function total() {
   // write your code here
   var i;
-  var count= 0; 
+  var count= 0;
 
   for(i = 0; i < cart.length; i++){
     count += cart[i].itemPrice ;
@@ -82,7 +82,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var i; 
+  var i;
 
   for(i = 0; i < cart.length; i++){
     if (item !== cart[i].item){
