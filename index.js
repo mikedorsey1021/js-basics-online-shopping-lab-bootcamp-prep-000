@@ -100,7 +100,7 @@ function removeFromCart(item) {
       'hi'
     }
   }
-return value
+
 }
 
 function placeOrder(cardNumber) {
