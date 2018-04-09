@@ -56,11 +56,12 @@ function viewCart() {
       }
 
       if(i <  cart.length-1){
+        response += ", ";
         if(i === cart.length-2){
           response += ", and";
-          
+
         }
-        response += ", ";
+
       }
 
 
