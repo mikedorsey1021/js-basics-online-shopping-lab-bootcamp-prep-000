@@ -55,7 +55,7 @@ function viewCart() {
         response += ".";
       }
 
-      if(i <  cart.length-1){
+      if(i <  cart.length-2){
         response += ", ";
 
 
