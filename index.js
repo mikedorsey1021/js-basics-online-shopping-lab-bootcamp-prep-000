@@ -62,7 +62,7 @@ function viewCart() {
       } else if (i < cart.length-1 && i === cart.length-2){
         response += ", and ";
       }
-      
+
 
 
     }
