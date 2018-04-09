@@ -98,11 +98,11 @@ function removeFromCart(item) {
     var value = cart[i].itemName;
     if (item === value){
       cart.splice(i, 1);
-      found = true; 
-      break; 
-      
+      found = true;
+      break;
+
     }
-    
+
   }
 if (found === false){
   return 'That item is not in your cart.'
