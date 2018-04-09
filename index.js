@@ -91,7 +91,7 @@ function removeFromCart(item) {
 
   for(i = 0; i < cart.length; i++){
     var value = cart[i].itemName;
-    if (value !== item){
+    if (cart.length === 0){
       response += 'That item is not in your cart'
     }else {
       'hi'
