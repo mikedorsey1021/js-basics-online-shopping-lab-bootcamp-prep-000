@@ -78,7 +78,7 @@ function total() {
     var count = 0;
     count += cart[i].itemPrice;
   }
-  return count; 
+  return count;
 }
 
 function removeFromCart(item) {
