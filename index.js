@@ -23,7 +23,7 @@ function viewCart() {
   var responsePart1 = 'In your cart, you have ';
 
   var spacer = ' at $';
-  var price = cart[0].itemPrice;
+  
 
   if (cart.length === 0){
     return 'Your shopping cart is empty.'
@@ -32,6 +32,7 @@ function viewCart() {
   }else {
     var i;
     var item = cart[0].itemName;
+    var price = cart[0].itemPrice;
     for (i = 0; i < cart.length; i++){
 
     }
