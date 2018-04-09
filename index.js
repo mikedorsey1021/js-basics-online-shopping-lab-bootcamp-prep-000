@@ -34,7 +34,7 @@ function viewCart() {
     for (i = 0; i < cart.length; i++){
 
     }
-    return `${responsePart1} ${item} ${spacer} ${price}`
+    return `${responsePart1}${item}${spacer}${price}`
   }
 
   }
