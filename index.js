@@ -79,16 +79,6 @@ function total() {
   return count;
 }
 
-// function removeFromCart(item) {
-//   // write your code here
-//   var remove = cart.splice(1,1);
-//   remove;
-//
-//
-// }
-// cart = [ {  itemName:"bananas", itemPrice: 17 },
-//{ itemName:"pancake batter",itemPrice: 5 }]
-
 function removeFromCart(item) {
   // write your code here
   var i;
@@ -111,4 +101,11 @@ if (found === false){
 
 function placeOrder(cardNumber) {
   // write your code here
+  if (placeOrder() === undefined){
+    return 'Sorry, we don\'t have a credit card on file for you.'
+  }else {
+    var cost = total(); 
+    cart = []; 
+    return `Your total cost is $${cost}, which will be charged to the card ${cardNumber}.`
+  }
 }
