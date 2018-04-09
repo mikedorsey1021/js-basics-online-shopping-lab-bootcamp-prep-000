@@ -101,7 +101,7 @@ if (found === false){
 
 function placeOrder(cardNumber) {
   // write your code here
-  if (placeOrder() === undefined){
+  if (cardNumber === undefined){
     return 'Sorry, we don\'t have a credit card on file for you.'
   }else {
     var cost = total();
